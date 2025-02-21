@@ -69,7 +69,7 @@
 
 
 
-- DKG for Threshold Homomorphic Encryption - A library for distributed key generation.
+- [DKG for Threshold Homomorphic Encryption](https://github.com/auxo-zk/Distributed-key-generation) - A library for distributed key generation.
 
 #### Signatures
 
@@ -114,7 +114,7 @@
 
 
 - [Paima](https://github.com/PaimaStudios/paima-engine) - Provable game engine.
-- [ZkNoid](https://github.com/ZkNoid) - An SDK for provable games.
+- [ZkNoid](https://github.com/ZkNoid/store) - An SDK for provable games.
 
 ## Projects
 
