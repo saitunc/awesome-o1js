@@ -1,8 +1,9 @@
-# awesome-o1js
+<h1 align="center"> awesome-o1js</h1>
 
-A curated list of libraries, projects and resources for o1js.
 
 ![awesome-o1js](https://github.com/user-attachments/assets/b9c8bccc-a1cd-4d9f-80a3-6b11029146a0)
+
+**<p align="center">A curated list of libraries, projects and resources for o1js.</p>**
 
 ## Table of Contents
 
@@ -37,7 +38,7 @@ A curated list of libraries, projects and resources for o1js.
 
 ## Libraries
 
----
+
 
 ### Math
 
@@ -48,11 +49,11 @@ A curated list of libraries, projects and resources for o1js.
 
 ### Cryptography
 
----
+
 
 #### Encryption
 
----
+
 
 - [ChaCha20](https://github.com/0x471/o1js-chacha20/tree/main) - A library for ChaCha20 encryption scheme.
 - [o1js-elgamal](https://github.com/Trivo25/o1js-elgamal) -  A library for ElGamal partially homomorphic encryption scheme.
@@ -60,19 +61,19 @@ A curated list of libraries, projects and resources for o1js.
 
 #### Key Exchange
 
----
+
 
 - [ECDH over secp256k1 curve](https://github.com/0x471/o1js-ecdh-secp256k1/tree/main) - A library for ECDH over 256k1 curve.
 
 #### Key Generation
 
----
+
 
 - DKG for Threshold Homomorphic Encryption - A library for distributed key generation.
 
 #### Signatures
 
----
+
 
 - [Schnorr signature verification over secp256k1 in o1js](https://github.com/0x471/o1js-schnorr-secp256k1) - A library for Schnorr signature over secp256k1.
 - [Ethereum signature verification in o1js](https://github.com/45930/ethereum-mina-signatures) -  A library for Ethereum signature verification over secp256k1.
@@ -80,58 +81,55 @@ A curated list of libraries, projects and resources for o1js.
 
 
 #### Hashing
----
 
 - [Dynamic SHA256](https://github.com/Shigoto-dev19/sha256-o1js) - A library for SHA256 algorithm.
 - [Reinforced Concrete](https://github.com/rymnc/reinforced-concrete-impls/) - A library for Reinforced Concrete hash function.
 
 #### Provers and Verifiers
 
----
 
 - [Groth16 verifier](https://github.com/onurinanc/o1js-groth16) - A library for Groth16 verifier.
 - [o1js-blobstream](https://github.com/geometers/o1js-blobstream) - A library for Gnark-based PLONK & Groth16 verifier.
 
 #### Data Structures
 
----
 
 - [o1js-merkle](https://github.com/plus3-labs/o1js-merkle) - A library for Advanced Merkle Tree structures (Sparse Merkle Tree, Standard Merkle Tree and Compact Merkle Tree).
 
 #### Text
 
----
+
 
 - [zkRegex](https://github.com/Shigoto-dev19/zk-regex-o1js) -  A library for regular expression verification.
 - [o1js base64](https://github.com/Shigoto-dev19/o1js-base64/tree/main) - A library for  Base64 encoder/decoder.
 
 #### Privacy
 
----
+
 
 - [Private attestations library](https://github.com/zksecurity/mina-attestations/tree/main) - A library for  private attestations.
 
 ### Gaming
 
----
+
 
 - [Paima](https://github.com/PaimaStudios/paima-engine) - Provable game engine.
 - [ZkNoid](https://github.com/ZkNoid) - An SDK for provable games.
 
 ## Projects
 
----
+
 
 #### Socials
 
----
+
 
 - [MRLN](https://github.com/0x471/o1js-rln) - Rate Limiting Nullifier implemented in o1js.
 - [o1js Semaphore](https://github.com/Socialcap-app/semaphore-sdk) - Semaphore protocol implemented in o1js.
 
 #### Gaming
 
----
+
 
 - [Dice Roll](https://github.com/YofiY/zk-dice-roll) - A simple dice roll game implemented in o1js.
 - [2048](https://github.com/Chomtana/2048-o1js) - 2048 game implemented in o1js.
@@ -140,7 +138,7 @@ A curated list of libraries, projects and resources for o1js.
 
 ## Experimental & Research
 
----
+
 
 Projects in this section are not complete—use them with caution.
 
@@ -151,20 +149,20 @@ Projects in this section are not complete—use them with caution.
 
 ## Dev Tooling
 
----
+
 
 - [o1js Pack](https://github.com/45930/o1js-pack) - A library that allows to pack extra data into a single Field.
 
 ## Starter Kits
 
----
+
 
 - [Scaffold-Mina](https://github.com/DeMonkeyCoder/scaffold-mina) - A starter kit for o1js smart contracts.
 - [Protokit starter-kit](https://github.com/proto-kit/starter-kit) - A starter kit for protokit framework.
 
 ## Tutorials & Documentation
 
----
+
 
 - [o1js examples folder](https://github.com/o1-labs/o1js/tree/main/src/examples) -  A repository for example use of o1js.
 - [Mina Playground](https://www.minaplayground.com/) - Interactive tutorials for o1js.
@@ -173,7 +171,7 @@ Projects in this section are not complete—use them with caution.
 
 ## Presentation & Talks
 
----
+
 
 - [o1js and zk coprocessors](https://www.youtube.com/watch?v=2OroIELozJg) - Florian Kluge on o1js and where it is used.
 - [Building Stateful zkApps](https://www.youtube.com/watch?v=aMWDh4minG4) - Boray Saygilier on building zkapps with o1js.
@@ -181,13 +179,13 @@ Projects in this section are not complete—use them with caution.
 
 ## Papers
 
----
+
 
 - [Project Untitled Paper](https://github.com/o1-labs/project-untitled-whitepaper/blob/main/whitepaper.pdf)
 - [Technical Whitepaper](https://minaprotocol.com/wp-content/uploads/technicalWhitepaper.pdf)
 
 ## Contributions
 
----
+
 
 The contribution guidelines can be found [here](https://github.com/navigators-exploration-team/awesome-o1js/blob/main/CONTRIBUTING.md).
