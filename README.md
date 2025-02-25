@@ -102,8 +102,8 @@
 
 #### Socials
 
-- [RLN(Rate Limiting Nullifiers)](https://github.com/0x471/o1js-rln) - An implementation enabling spam prevention in anonymous environments by limiting message rates..
-- [Semaphore](https://github.com/Socialcap-app/semaphore-sdk) - An implementation enabling users to prove group membership (e.g., for votes or endorsements) anonymously without revealing their identity..
+- [RLN(Rate Limiting Nullifiers)](https://github.com/0x471/o1js-rln) - An implementation enabling spam prevention in anonymous environments by limiting message rates.
+- [Semaphore](https://github.com/Socialcap-app/semaphore-sdk) - An implementation enabling users to prove group membership (e.g., for votes or endorsements) anonymously without revealing their identity.
 
 #### Gaming
 
@@ -129,7 +129,7 @@
 - [ZkNoid Blog on Actions & Reducers](https://medium.com/zknoid/mina-action-reducers-guide-why-we-need-them-81b6836c1700) - Blog post series on the use of actions and reducers in o1js.
 
 ### Tutorials
-- [Onboarding to Mina](https://www.youtube.com/watch?v=bJ6BRvFpyk4&list=PLNwigD3FQvjBvYunrf_v2v7lGSeIOpAkx) - Video tutorial series.
+- [Onboarding to Mina](https://www.youtube.com/watch?v=bJ6BRvFpyk4&list=PLNwigD3FQvjBvYunrf_v2v7lGSeIOpAkx) - Video tutorial series about o1js ZkApp development.
 - [Mina Playground](https://www.minaplayground.com/) - Interactive o1js tutorials.
 
 ### Examples
