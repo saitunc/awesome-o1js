@@ -66,7 +66,7 @@
 ### Hashing
 
 - [Dynamic SHA256](https://github.com/Shigoto-dev19/o1js-dynamic-sha256) - A library for provable SHA256 hash function with dynamic-size inputs.
-- [Reinforced Concrete](https://github.com/rymnc/reinforced-concrete-impls/) - A library for provableReinforced Concrete hash function.
+- [Reinforced Concrete](https://github.com/rymnc/reinforced-concrete-impls/) - A library for provable Reinforced Concrete hash function.
 
 ### Provers and Verifiers
 
