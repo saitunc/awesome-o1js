@@ -1,6 +1,5 @@
 <h1 align="center"> awesome-o1js</h1>
 
-
 ![awesome-o1js](https://github.com/user-attachments/assets/b9c8bccc-a1cd-4d9f-80a3-6b11029146a0)
 
 **<p align="center">A curated list of libraries, projects and resources for o1js.</p>**
@@ -8,184 +7,131 @@
 ## Table of Contents
 
 
-- [Libraries](#libraries)
-    - [Math](#math)
-    - [Cryptography](#cryptography)
-        - [Encryption](#encryption)
-        - [Key Exchange](#key-exchange)
-        - [Key Generation](#key-generation)
-        - [Signatures](#signatures)
-        - [Hashing](#hashing)
-        - [Provers and Verifiers](#provers-and-verifiers)
-        - [Data Structures](#data-structures)
-        - [Text](#text)
-        - [Privacy](#privacy)
-    - [Gaming](#gaming)
-- [Projects](#projects)
-    - [Socials](#socials)
-    - [Gaming](#gaming-1)
+- [Math](#math)
+- [Cryptography](#cryptography)
+    - [Encryption](#encryption)
+    - [Key Exchange](#key-exchange)
+    - [Key Generation](#key-generation)
+    - [Signatures](#signatures)
+    - [Hashing](#hashing)
+    - [Provers and Verifiers](#provers-and-verifiers)
+- [Data Structures](#data-structures)
+- [Text](#text)
+- [Privacy & Security](#privacy--security)
+- [Gaming](#gaming)
 - [Experimental & Research](#experimental--research)
 - [Dev Tooling](#dev-tooling)
-- [Starter Kits](#starter-kits)
 - [Tutorials & Documentation](#tutorials--documentation)
+    - [Blog Posts](#blog-posts)
+    - [Examples](#examples)
+    - [Tutorials](#tutorials)
 - [Presentation & Talks](#presentation--talks)
 - [Papers](#papers)
 - [Contributions](#contributions)
 
+---
 
+:warning: Caution: This repository may include projects that have not undergone security audits, are outdated or are no longer maintained. Use them at your own risk. Proceed with caution and consider additional security measures.
 
-⚠️ This repository may contain projects that have not been audited. Use them at your own risk in a mainnet product. ⚠️
+---
 
-## Libraries
+## Math
 
+- [Math Operations](https://github.com/yunus433/o1js-math) - A library for provable, generic and fundamental mathematical operations.
+- [Bigint Operations](https://github.com/boray/o1js-bigint)  - A library for provable Bigint type and operations.
+- [Matrix Operations](https://github.com/Vishalkulkarni45/o1js-matrix) - A library for provable matrix operations.
+- [GCD](https://github.com/PaimaStudios/o1js-gcd)  - A library for provable greatest common divisor (GCD) calculations.
 
+## Cryptography
 
-### Math
+### Encryption
 
-- [o1js-math](https://github.com/yunus433/o1js-math/tree/main) - A library for fundamental math operations.
-- [o1js-bigint](https://github.com/Shigoto-dev19/o1js-bigint) - A library for a provable bigint type.
-- [o1js-matrix](https://github.com/Vishalkulkarni45/o1js-matrix) - A library for matrix operations.
-- [o1js GCD](https://github.com/PaimaStudios/o1js-gcd) - A library for in-circuit GCD calculations.
+- [ChaCha20 Encryption](https://github.com/0x471/o1js-chacha20/tree/main) - A library for provable ChaCha20 encryption scheme.
+- [ElGamal Encryption](https://github.com/Trivo25/o1js-elgamal) -  A library for provable ElGamal encryption with multiplicative homomorphism.
+- [RSA](https://github.com/Shigoto-dev19/o1js-rsa/tree/main) - A library for provable RSA65537 signature verification.
 
-### Cryptography
+### Key Exchange
 
+- [ECDH on Secp256k1](https://github.com/0x471/o1js-ecdh-secp256k1) - A library for Elliptic Curve Diffie-Hellman key exchange on secp256k1.
 
+### Key Generation
 
-#### Encryption
+- [DKG for Threshold Homomorphic Encryption](https://github.com/auxo-zk/Distributed-key-generation) - A library for threshold homomorphic encryption distributed key generation.
 
+### Signatures
 
+- [Schnorr Signature Verification over secp256k1](https://github.com/0x471/o1js-schnorr-secp256k1) - A library for verifying Bitcoin and Nostr (BIP340) signatures.
+- [ECDSA over secp256k1](https://github.com/45930/ethereum-mina-signatures) -  A library for verifying Ethereum signautures.
 
-- [ChaCha20](https://github.com/0x471/o1js-chacha20/tree/main) - A library for ChaCha20 encryption scheme.
-- [o1js-elgamal](https://github.com/Trivo25/o1js-elgamal) -  A library for ElGamal partially homomorphic encryption scheme.
-- [o1js rsa](https://github.com/Shigoto-dev19/o1js-rsa/tree/main) - A library for in-circuit RSA verification.
+### Hashing
 
-#### Key Exchange
-
-
-
-- [ECDH over secp256k1 curve](https://github.com/0x471/o1js-ecdh-secp256k1/tree/main) - A library for ECDH over 256k1 curve.
-
-#### Key Generation
-
-
-
-- DKG for Threshold Homomorphic Encryption - A library for distributed key generation.
-
-#### Signatures
-
-
-
-- [Schnorr signature verification over secp256k1 in o1js](https://github.com/0x471/o1js-schnorr-secp256k1) - A library for Schnorr signature over secp256k1.
-- [Ethereum signature verification in o1js](https://github.com/45930/ethereum-mina-signatures) -  A library for Ethereum signature verification over secp256k1.
-- [Multisig Verification in o1js](https://github.com/yunus433/multisig-verification-zkapp/tree/main) - A library for multisig verification in o1js.
-
-
-#### Hashing
-
-- [Dynamic SHA256](https://github.com/Shigoto-dev19/sha256-o1js) - A library for SHA256 algorithm.
+- [Dynamic SHA256](https://github.com/Shigoto-dev19/o1js-dynamic-sha256) - A library for SHA256 hash function.
 - [Reinforced Concrete](https://github.com/rymnc/reinforced-concrete-impls/) - A library for Reinforced Concrete hash function.
 
-#### Provers and Verifiers
+### Provers and Verifiers
 
+- [Groth16 verifier](https://github.com/onurinanc/o1js-groth16) - A library for Groth16 verification.
+- [ SP1-Blobstream Verifier](https://github.com/geometers/o1js-blobstream) - A library for verifying PLONK proofs generated by the SP1 zkVM for Celestia Blobstream.It also enables the verification of Groth16 proofs in o1js besides gnark-based PLONK proofs.
+  
+## Data Structures
 
-- [Groth16 verifier](https://github.com/onurinanc/o1js-groth16) - A library for Groth16 verifier.
-- [o1js-blobstream](https://github.com/geometers/o1js-blobstream) - A library for Gnark-based PLONK & Groth16 verifier.
+- [Advanced Merkle Tree Structures](https://github.com/plus3-labs/o1js-merkle) - A library for Sparse, Standard and Compact Merkle Tree.
+- [MMR](https://github.com/codekaya/Mina_MMR) - A library for provable Merkle Mountain Range data structure.
+  
+## Text
 
-#### Data Structures
+- [RegEx](https://github.com/Shigoto-dev19/zk-regex-o1js) -  A library for provable regular expression verification.
+- [Base64](https://github.com/Shigoto-dev19/o1js-base64/tree/main) - A library for provable Base64 encoding/decoding.
 
+## Privacy & Security
 
-- [o1js-merkle](https://github.com/plus3-labs/o1js-merkle) - A library for Advanced Merkle Tree structures (Sparse Merkle Tree, Standard Merkle Tree and Compact Merkle Tree).
+- [Private Attestations Library](https://github.com/zksecurity/mina-attestations) - A standard for anonymous credentials using ZK attestations.
+- [RLN(Rate Limiting Nullifiers)](https://github.com/0x471/o1js-rln) - An implementation enabling spam prevention in anonymous environments by limiting message rates.
+- [Semaphore](https://github.com/Socialcap-app/semaphore-sdk) - An implementation enabling users to prove group membership (e.g., for votes or endorsements) anonymously without revealing their identity.
+- [zkVot](https://github.com/node101-io/zkvot) - An implementation of anonymous voting using recursive ZK proofs.
+- [zkEmail](https://github.com/Shigoto-dev19/zk-email-o1js) - An implementation enabling provable verification of emails to and from specific domains or subsets of domains, as well as verification based on specific text in the email body.
+- [z2zlib](https://github.com/Yeshilabs/z2zlib/tree/version/0.0.1) - An implementation of provable and secure p2p state channels.
 
-#### Text
+## Gaming
 
-
-
-- [zkRegex](https://github.com/Shigoto-dev19/zk-regex-o1js) -  A library for regular expression verification.
-- [o1js base64](https://github.com/Shigoto-dev19/o1js-base64/tree/main) - A library for  Base64 encoder/decoder.
-
-#### Privacy
-
-
-
-- [Private attestations library](https://github.com/zksecurity/mina-attestations/tree/main) - A library for  private attestations.
-
-### Gaming
-
-
-
-- [Paima](https://github.com/PaimaStudios/paima-engine) - Provable game engine.
-- [ZkNoid](https://github.com/ZkNoid) - An SDK for provable games.
-
-## Projects
-
-
-
-#### Socials
-
-
-
-- [MRLN](https://github.com/0x471/o1js-rln) - Rate Limiting Nullifier implemented in o1js.
-- [o1js Semaphore](https://github.com/Socialcap-app/semaphore-sdk) - Semaphore protocol implemented in o1js.
-
-#### Gaming
-
-
-
-- [Dice Roll](https://github.com/YofiY/zk-dice-roll) - A simple dice roll game implemented in o1js.
-- [2048](https://github.com/Chomtana/2048-o1js) - 2048 game implemented in o1js.
-- [Mastermind](https://github.com/Shigoto-dev19/mina-mastermind/tree/level1) -  Mastermind game implemented in o1js.
-- [recursive-gaming](https://github.com/zkzoomer/recursive-gaming/tree/main) - A recursive proof based TicTacToe game implemented in o1js.
-
-## Experimental & Research
-
-
-
-Projects in this section are not complete—use them with caution.
-
-- [ZKON](https://github.com/ZKON-Network) - An oracle network that connects Mina blockchain to the off-chain world data.
-- [zkEmail](https://github.com/Shigoto-dev19/zk-email-o1js) - zkEmail protocol implemented in o1js.
-- [z2zlib](https://github.com/Yeshilabs/z2zlib/tree/version/0.0.1) - P2P state channels implemented in o1js.
-- [MMR](https://github.com/codekaya/Mina_MMR) - A library for Merkle Mountain Range.
+- [Paima](https://github.com/PaimaStudios/paima-engine) - A framework for building provable gaming app-chains.
+- [ZkNoid](https://github.com/ZkNoid/store) - An SDK for provable game development.
+- [Dice Roll](https://github.com/YofiY/zk-dice-roll) - An implementation of a provable dice roll game.
+- [2048](https://github.com/Chomtana/2048-o1js) - An implementation of the provable 2048 game.
+- [Mina Puzzles](https://github.com/0xStruct/mina-puzzles) - Implementation of provable puzzle games like Tic-Tac-Toe, Sudoku and more.
 
 ## Dev Tooling
 
-
-
-- [o1js Pack](https://github.com/45930/o1js-pack) - A library that allows to pack extra data into a single Field.
-
-## Starter Kits
-
-
-
-- [Scaffold-Mina](https://github.com/DeMonkeyCoder/scaffold-mina) - A starter kit for o1js smart contracts.
-- [Protokit starter-kit](https://github.com/proto-kit/starter-kit) - A starter kit for protokit framework.
-
+- [ZkApp CLI](https://github.com/o1-labs/zkapp-cli) - A cli for kick-starting o1js zkApp. 
+- [Scaffold-Mina](https://github.com/DeMonkeyCoder/scaffold-mina) - A starter kit for o1js zkApps development with zkApp workers.
+- [Data Packer](https://github.com/45930/o1js-pack) - A library that enables packing extra data into a single Field.
+  
 ## Tutorials & Documentation
 
+### Blog Posts
+- [Mastering o1js](https://medium.com/veridise/mastering-o1js-on-mina-four-key-strategies-for-secure-development-fff3a3f4f6d1) - A blog post about secure development.
+- [ZkNoid Blog on Actions & Reducers](https://medium.com/zknoid/mina-action-reducers-guide-why-we-need-them-81b6836c1700) - Blog post series on the use of actions and reducers.
+- [Nullifiers In o1js](https://www.o1labs.org/blog/the-many-saints-of-privacy-nullifiers-in-o1js) - A blog post about Nullifiers.
 
+### Tutorials
+- [Onboarding to Mina](https://www.youtube.com/watch?v=bJ6BRvFpyk4&list=PLNwigD3FQvjBvYunrf_v2v7lGSeIOpAkx) - Video tutorial series about o1js ZkApp development.
+- [Mina Playground](https://www.minaplayground.com/) - Interactive o1js tutorials.
 
-- [o1js examples folder](https://github.com/o1-labs/o1js/tree/main/src/examples) -  A repository for example use of o1js.
-- [Mina Playground](https://www.minaplayground.com/) - Interactive tutorials for o1js.
-- [Onboarding to Mina](https://www.youtube.com/watch?v=bJ6BRvFpyk4&list=PLNwigD3FQvjBvYunrf_v2v7lGSeIOpAkx) - Video tutorials for o1js.
-- [ZkNoid Blog on Actions & Reducers](https://medium.com/zknoid/mina-action-reducers-guide-why-we-need-them-81b6836c1700) - Blog post series on use of actions&reducers in o1js.
+### Examples
+- [Examples Folder](https://github.com/o1-labs/o1js/tree/main/src/examples) - A subdirectory in the o1js repository that showcases example use cases of its functionalities.
+- [Nextjs Integration Template](https://github.com/o1-labs-XT/next-js-integration-example) - A Next.js template using web workers.
+- [Mina Name Service](https://github.com/o1-labs-XT/name-service-example) - An implementation of a name service application that demonstrates the use of the Offchain State API.
+- [Mastermind zkApp Example Series](https://github.com/Shigoto-dev19/mina-mastermind/) -  An implementation of the Mastermind game as a series that explains different aspects of the o1js API.
 
 ## Presentation & Talks
 
-
-
-- [o1js and zk coprocessors](https://www.youtube.com/watch?v=2OroIELozJg) - Florian Kluge on o1js and where it is used.
-- [Building Stateful zkApps](https://www.youtube.com/watch?v=aMWDh4minG4) - Boray Saygilier on building zkapps with o1js.
-- [What makes Mina so special?](https://www.youtube.com/watch?v=-fG0JLtYlJE) - Nathan Holland explains how Mina and o1js works.
-
+- [O1js and Zk Coprocessors](https://www.youtube.com/watch?v=2OroIELozJg) - [Florian Kluge](https://x.com/zktrivo) on o1js and where it is used.
+- [Building Stateful ZkApps](https://www.youtube.com/watch?v=aMWDh4minG4) - [Boray Saygilier](https://x.com/boraysaygilier) on building zkApps with o1js.
+- [What Makes Mina So Special?](https://www.youtube.com/watch?v=-fG0JLtYlJE) - Nathan Holland explains how Mina and o1js works.
+  
 ## Papers
-
-
-
-- [Project Untitled Paper](https://github.com/o1-labs/project-untitled-whitepaper/blob/main/whitepaper.pdf)
-- [Technical Whitepaper](https://minaprotocol.com/wp-content/uploads/technicalWhitepaper.pdf)
+- [Mina Technical Whitepaper](https://minaprotocol.com/wp-content/uploads/technicalWhitepaper.pdf)
 
 ## Contributions
-
-
 
 The contribution guidelines can be found [here](https://github.com/navigators-exploration-team/awesome-o1js/blob/main/CONTRIBUTING.md).
